@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="ls1.js"></script>
+
+    console.log(132 &gt; 100 && 45 &lt; 12 ); -- false
+    <br>
+    console.log(34 &gt; 33 && 23 &lt; 90 );  -- true
+    <br>
+    console.log(99 &gt; 100 && 45 &lt; 12 ); -- false
+    <br>
+    console.log(132 &gt; 100 || 45 &lt; 12 );   --  true
+    <br>
+    console.log(111 &gt; 11 || 45 &lt; 111 );   --  true
+    <br>
+    console.log((111 &gt; 11 || 45 &lt; 111) && (132 &gt; 100 || 45 &lt; 12) ); -- true
+    <br>
+    console.log((111 &gt; 11 || 45 &lt; 56) || (132 &gt; 100 || 45 &lt; 12) );  -- true
+    <br>
+    console.log((132 &gt; 100 && 45 &lt; 12 ) && (132 &gt; 100 || 45 &lt; 12 ) );   --  false
+    <br>
+    console.log((111 &gt; 11 || 45 &lt; 111) || (99 &gt; 100 && 45 &gt; 12 )); -->  true
+</body>
+</html>
